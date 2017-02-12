@@ -30,8 +30,8 @@ public class SendEmail {
 	public boolean sendEmail(String summaryResult, String toAddress,
 			String content, String subject) {
 		// System.out.println("Calling constructor");
-		final String username = "MissionImpossible044@gmail.com";
-		final String password = "Project044";
+		final String username = "youremail@example.com";
+		final String password = "yourpassword";
 
 		Properties props = new Properties();
 		props.put("mail.smtp.auth", "true");
