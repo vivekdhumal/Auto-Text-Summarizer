@@ -49,8 +49,7 @@ public class SendEmail {
 		try {
 
 			Message message = new MimeMessage(session);
-			message.setFrom(new InternetAddress(
-					"MissionImpossible044@gmail.com"));
+			message.setFrom(new InternetAddress(username));
 			message.setRecipients(Message.RecipientType.TO,
 					InternetAddress.parse(toAddress));
 			message.setSubject(subject);
